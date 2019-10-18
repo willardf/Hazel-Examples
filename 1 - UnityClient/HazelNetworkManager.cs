@@ -247,7 +247,7 @@ namespace UnityClient
                         this.GameId = idOrError;
                         lock (this.EventQueue)
                         {
-                            this.EventQueue.Add(() => HandleJoinGame();
+                            this.EventQueue.Add(() => HandleJoinGame());
                         }
                     }
                     else
